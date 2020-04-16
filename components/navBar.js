@@ -14,8 +14,8 @@ const NavBar = () => {
     <div>
       <div className='bg-indigo-500 py-4 text-center'>
         <NavLink href='/sobre'>Sobre</NavLink>
-        <NavLink href='/cadastro'>Cadastro</NavLink>
-        <NavLink href='/Entrar'>Entrar</NavLink>
+        <NavLink href='/cadastro'>Mapa(COVID-19)</NavLink>
+        <NavLink href='/Entrar'>Acões sociais</NavLink>
       </div>
     </div>
   )

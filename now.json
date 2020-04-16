@@ -4,8 +4,8 @@
     "AUTH0_CLIENT_SECRET": "@auth0-client-secret",
     "AUTH0_SCOPE": "openid profile",
     "AUTH0_DOMAIN": "clebercom.auth0.com",
-    "AUTH0_REDIRECT_URI": "https://mydaily-cleber.cleber-lopes-silva.now.sh/api/callback",
-    "AUTH0_POST_LOGOUT_REDIRECT_URI": "https://mydaily-cleber.cleber-lopes-silva.now.sh",
+    "AUTH0_REDIRECT_URI": "https://mydaily-cleber.now.sh/api/callback",
+    "AUTH0_POST_LOGOUT_REDIRECT_URI": "https://mydaily-cleber.now.sh",
     "AUTH0_SESSION_COOKIE_SECRET": "ksffiebfefjdjfdfhHFHDHFhJASDHshn",
     "AUTH0_SESSION_COOKIE_TIME": "3600"
   },
@@ -15,8 +15,8 @@
       "AUTH0_CLIENT_SECRET": "@auth0-client-secret",
       "AUTH0_SCOPE": "openid profile",
       "AUTH0_DOMAIN": "clebercom.auth0.com",
-      "AUTH0_REDIRECT_URI": "https://mydaily-cleber.cleber-lopes-silva.now.sh/api/callback",
-      "AUTH0_POST_LOGOUT_REDIRECT_URI": "https://mydaily-cleber.cleber-lopes-silva.now.sh",
+      "AUTH0_REDIRECT_URI": "https://mydaily-cleber.now.sh",
+      "AUTH0_POST_LOGOUT_REDIRECT_URI": "https://mydaily-cleber.now.sh",
       "AUTH0_SESSION_COOKIE_SECRET": "ksffiebfefjdjfdfhHFHDHFhJASDHshn",
       "AUTH0_SESSION_COOKIE_TIME": "3600"
     }

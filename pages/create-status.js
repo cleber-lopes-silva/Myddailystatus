@@ -38,7 +38,7 @@ const createStatus = () => {
     await axios.post('/api/save-status', dados)
   }
   return (
-    <div>
+    <div className='min-h-screen container mx-auto'>
       <h1>Criar status</h1>
       <label className='block'>
         <input type='radio' name='status' value='bem' onClick={onStatusChange}/> Estou bem e sem

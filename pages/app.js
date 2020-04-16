@@ -16,7 +16,7 @@ const App = props => {
     return null
   }
   return (
-    <div>
+    <div className='min-h-screen container mx-auto'>
       <h1>Status próximos a você:</h1>
       <table>
         {props.checkins.map(checkin => {
@@ -48,7 +48,6 @@ export async function getServerSideProps ({ req, res }) {
       .doc(session.user.sub)
       .get()
     const todaysData = todaysCheckin.data()
-    console.log(todaysData.coordinates)
     let forceCreate = true
     if (todaysData) {
       // pode ver os outros checkins

@@ -292,7 +292,7 @@ const NavBar = () => {
       lineNumber: 17,
       columnNumber: 9
     }
-  }, "Cadastro"), __jsx(NavLink, {
+  }, "Mapa(COVID-19)"), __jsx(NavLink, {
     href: "/Entrar",
     __self: undefined,
     __source: {
@@ -300,7 +300,7 @@ const NavBar = () => {
       lineNumber: 18,
       columnNumber: 9
     }
-  }, "Entrar")));
+  }, "Ac\xF5es sociais")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (NavBar);

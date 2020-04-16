@@ -1,6 +1,7 @@
 import auth0 from '../../lib/auth0'
 import { db } from '../../lib/db'
 import admin from 'firebase-admin'
+import '../style/style.css'
 
 const saveStatus = async (request, response) => {
 const session = await auth0.getSession(request)
